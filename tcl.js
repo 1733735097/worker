@@ -83,6 +83,7 @@ async function handleRequest(request) {
         <form id="uploadForm" enctype="multipart/form-data">
           <label for="file" class="custom-file-upload">选择文件</label>
           <input type="file" id="file" name="file" accept="image/*" required>
+          <p id="fileSizeInfo" style="font-size: 14px; color: #888; margin-top: 5px;">(最大可上传 10 MB 的图片)</p>
         </form>
         <div id="result"></div>
         <textarea id="links" rows="4" readonly></textarea>
